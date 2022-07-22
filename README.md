@@ -24,3 +24,10 @@ my main values are passion, a desire to leave this world better than i found it,
   End point: END
 
 input: 1btc = 23.712dls
+
+
+amount --< read
+BTCprice <-- GET FROM(https://www.coindesk.com/price/bitcoin/)
+Total <-- Amount * BTCprice
+PRINT Total
+END
