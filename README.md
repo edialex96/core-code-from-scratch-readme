@@ -31,3 +31,9 @@ BTCprice <-- GET FROM(https://www.coindesk.com/price/bitcoin/)
 Total <-- Amount * BTCprice
 PRINT Total
 END
+
+
+my date of birth in binary
+
+03         07         19996
+011       111         11111001010
