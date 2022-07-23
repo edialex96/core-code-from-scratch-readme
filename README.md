@@ -32,8 +32,43 @@ Total <-- Amount * BTCprice
 PRINT Total
 END
 
-
 my date of birth in binary
 
 03         07         19996
 011       111         11111001010
+
+
+Based on the guide and the examples of the low-level language, create the following
+
+1. Create a program that adds any two given numbers provided by the user
+2. Create a program that displays your name
+
+1
+  .data
+	      number1: .asciiz "\nIngrese el primer numero: "
+	      number2: .asciiz "\nIngrese el segundo numero: "
+  .text
+	      main:
+              li $v0, 4
+              la $a0, number1
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t0, $v0
+
+              li $v0, 4
+              la $a0, number2
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t1, $v0
+
+              li $v0, 1
+              move $a0, $t0
+              syscall
+
+
