@@ -72,3 +72,9 @@ Based on the guide and the examples of the low-level language, create the follow
               syscall
 
 
+JAVASCRIPT-WEEK 2 
+
+![code wars multiplicasion](https://user-images.githubusercontent.com/75593932/182041639-1af37cc9-09c9-4d34-a837-1941a9086f68.png)
+
+
+
